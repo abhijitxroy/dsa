@@ -11,13 +11,20 @@ class Test {
     public static void main(String[] args) {
         int[] arr = {1, 2, 5, 8, 1, 4, 7, 8, 5 };
 
+    // With extra space
     int result = getRepeatedElementWithExtraMem(arr);
-        if (result == 0) {
-            System.out.println("No Repeated Element");
-        } else {
-            System.out.println("First Repeated Element: " + result);
-        }
-
+    if (result == 0) {
+        System.out.println("No Repeated Element");
+    } else {
+        System.out.println("First Repeated Element: " + result);
+    }
+    // without extra space
+    // arr[1]=2 ->-2
+    // arr[2]=5 ->-5
+    // arr[5]=4
+    // arr[8]=5
+    // arr[1]=-2
+    // if (arr[arr[i]] == arr[i + 1]) ...
     }  
     private static int getRepeatedElementWithExtraMemorySpace(int[] arr) { // O(n)
             Map<Integer, Integer> map = new HashMap<>();
