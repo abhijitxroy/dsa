@@ -3,7 +3,7 @@ package anagram;
 /**
 * AnagramProg3 - Using StringBuilder
 */
-public class AnagramProgWithStringBuilder {
+public class AnagramProg3WithStringBuilder {
 
 	public static void main(String[] args) {
 		boolean result = isAnagram("Mother In Law", "Hitler Woman");
