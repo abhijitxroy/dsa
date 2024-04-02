@@ -1,7 +1,7 @@
 /**
- * AnagramProg1 - Using Iterative Method
+ * AnagramProg2 - Using Iterative Method
  */
-public class AnagramProgWithIterativeMethod {
+public class AnagramProg2WithIterativeMethod {
 
 	public static void main(String[] args) {
 		boolean result = isAnagram("Mother In Law", "Hitler Woman");
