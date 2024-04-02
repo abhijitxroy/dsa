@@ -11,7 +11,7 @@ import java.util.Arrays;
 /**
  * AnagramProg1 - Using sort() and equals() Methods
  */
-public class AnagramProgWithSortEqualsMethods {
+public class AnagramProg1WithSortEqualsMethods {
 
     // private static String[] arr = {"CAT", "ACT" , "TAC", "TCA" ,"ATC" , "CTA"};
 
